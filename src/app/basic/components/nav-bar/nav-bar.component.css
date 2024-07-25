@@ -39,4 +39,9 @@ nav {
   border-radius: 30px;
   color: #000;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.emergencias button:hover {
+  background: rgba(0, 123, 255, 0.1);
 }

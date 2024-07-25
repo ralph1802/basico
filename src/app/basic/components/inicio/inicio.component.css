@@ -35,3 +35,12 @@ button {
     #FFEBE0 100%);
   border: none;
 }
+
+button:hover {
+  background: #F58F8A;
+}
+
+.img img {
+  margin-top: 60px;
+  margin-right: 60px;
+}
