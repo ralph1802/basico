@@ -1,11 +1,11 @@
 .contenedor {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .texto {
   margin-top: 80px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .texto h1 {
@@ -42,5 +42,5 @@ button:hover {
 
 .img img {
   margin-top: 60px;
-  margin-right: 60px;
+  margin-right: 200px;
 }
