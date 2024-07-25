@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 60px 0 60px;
+}
+
+.logo h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 900;
+  color: #000;
+  margin: 0;
+}
+
+.nav {
+  border-radius: 30px;
+  background: #fff;
+  padding: 20px 0px;
+}
+
+.nav a {
+  margin: 0 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.emergencias button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 30px;
+  color: #000;
+  font-weight: bold;
+}

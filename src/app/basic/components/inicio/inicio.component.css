@@ -1,0 +1,37 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.texto h1 {
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.texto p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 30px;
+  background: linear-gradient(to right,
+    #FAD0C4 0%,
+    #F7B7A3 25%,
+    #F58F8A 50%,
+    #F2A7A5 75%,
+    #FFEBE0 100%);
+  border: none;
+}
