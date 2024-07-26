@@ -1,0 +1,30 @@
+.etiqueta {
+  display: flex;
+  flex-direction: column;
+  background: url(../../../../assets/images/18\ Zella.svg) no-repeat center center; /* Centra la imagen y evita la repetición */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.etiqueta h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.etiqueta p {
+  font-family: Inter;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.etiqueta img {
+  width: 100%;
+  height: 50%;
+  padding-left: 70px;
+}
