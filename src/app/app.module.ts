@@ -7,6 +7,7 @@ import { CarrucelServiciosComponent } from './basic/components/carrucel-servicio
 import { InicioComponent } from './basic/components/inicio/inicio.component';
 import { NavBarComponent } from './basic/components/nav-bar/nav-bar.component';
 
+import { BarraComentariosComponent } from './basic/components/barra-comentarios/barra-comentarios.component';
 import { EtConsultaVetComponent } from './basic/shared/et-consulta-vet/et-consulta-vet.component';
 import { EtDomicilioVetComponent } from './basic/shared/et-domicilio-vet/et-domicilio-vet.component';
 import { EtEsteticaVetComponent } from './basic/shared/et-estetica-vet/et-estetica-vet.component';
@@ -28,6 +29,7 @@ import { EtVentaVetComponent } from './basic/shared/et-venta-vet/et-venta-vet.co
     EtLaboratorioVetComponent,
     EtPensionVetComponent,
     EtVentaVetComponent,
+    BarraComentariosComponent,
   ],
   imports: [
     BrowserModule,
