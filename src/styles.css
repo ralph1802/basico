@@ -5,6 +5,16 @@
   margin: 0;
 }
 
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-image: url(./assets/images/12\ Pleebo.svg);
@@ -12,4 +22,5 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  -ms-overflow-style: none;
 }
