@@ -24,6 +24,7 @@ import { Presentacion4Component } from './basic/shared/presentacion4/presentacio
 import { Presentacion5Component } from './basic/shared/presentacion5/presentacion5.component';
 import { Presentacion6Component } from './basic/shared/presentacion6/presentacion6.component';
 import { ContactoComponent } from './basic/components/contacto/contacto.component';
+import { MapaComponent } from './basic/components/mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ContactoComponent } from './basic/components/contacto/contacto.componen
     Presentacion6Component,
     PresentacionesComponent,
     ContactoComponent,
+    MapaComponent,
   ],
   imports: [
     BrowserModule,
