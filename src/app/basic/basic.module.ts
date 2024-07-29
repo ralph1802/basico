@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 
-
 @NgModule({
   imports: [],
   exports: [],
-  declarations: [
-  ],
+  declarations: [],
 })
-export class NameModule { }
+export class NameModule {}

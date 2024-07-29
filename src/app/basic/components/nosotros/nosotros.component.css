@@ -1,0 +1,35 @@
+.componente {
+  margin-top: 200px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  align-items: center;
+}
+
+.componente .text p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.componente .text h2 {
+  font-family: Poppins;
+  font-size: 50px;
+}
+
+.componente .text p .bold {
+  font-weight: 800;
+}
+
+.componente .image img {
+  width: 900px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+
+
+
