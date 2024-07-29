@@ -44,5 +44,12 @@ nav {
 }
 
 .emergencias button:hover {
-  background: rgba(0, 123, 255, 0.1);
+  background: #cc0000;
+  border-color: #cc0000;
+  color: #fff;
+}
+
+.emergencias button:active {
+  background: #990000;
+  border-color: #990000;
 }

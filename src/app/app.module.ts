@@ -25,6 +25,7 @@ import { Presentacion5Component } from './basic/shared/presentacion5/presentacio
 import { Presentacion6Component } from './basic/shared/presentacion6/presentacion6.component';
 import { ContactoComponent } from './basic/components/contacto/contacto.component';
 import { MapaComponent } from './basic/components/mapa/mapa.component';
+import { FooterComponent } from './basic/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { MapaComponent } from './basic/components/mapa/mapa.component';
     PresentacionesComponent,
     ContactoComponent,
     MapaComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

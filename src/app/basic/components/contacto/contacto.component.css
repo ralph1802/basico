@@ -95,3 +95,69 @@ button:hover {
 }
 
 
+.redes button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Efecto hover */
+.redes .facebook:hover {
+  background-color: #1877f2;
+  border-color: #1877f2;
+  color: #fff; /* Color del texto en hover */
+}
+
+.redes .twitter:hover {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff; /* Color del texto en hover */
+}
+
+.redes .instagram:hover {
+  background-color: #c13584;
+  border-color: #c13584;
+  color: #fff; /* Color del texto en hover */
+}
+
+.redes .tiktok:hover {
+  background-color: #010101;
+  border-color: #010101;
+  color: #fff; /* Color del texto en hover */
+}
+
+.whatsapp:hover {
+  background-color: #25d366;
+  border-color: #25d366;
+  color: #fff; /* Color del texto en hover */
+}
+
+/* Efecto click */
+.redes button:active {
+  opacity: 0.8;
+}
+
+/* Efecto click para cada red social */
+.redes .facebook:active {
+  background-color: #165eab;
+  border-color: #165eab;
+}
+
+.redes .twitter:active {
+  background-color: #1a91da;
+  border-color: #1a91da;
+}
+
+.redes .instagram:active {
+  background-color: #a02c6b;
+  border-color: #a02c6b;
+}
+
+.redes .tiktok:active {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.redes .whatsapp:active {
+  background-color: #1da24c; /* Verde oscuro de WhatsApp */
+  border-color: #1da24c;
+}
