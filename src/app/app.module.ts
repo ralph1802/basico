@@ -23,6 +23,7 @@ import { Presentacion3Component } from './basic/shared/presentacion3/presentacio
 import { Presentacion4Component } from './basic/shared/presentacion4/presentacion4.component';
 import { Presentacion5Component } from './basic/shared/presentacion5/presentacion5.component';
 import { Presentacion6Component } from './basic/shared/presentacion6/presentacion6.component';
+import { ContactoComponent } from './basic/components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { Presentacion6Component } from './basic/shared/presentacion6/presentacio
     Presentacion5Component,
     Presentacion6Component,
     PresentacionesComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
