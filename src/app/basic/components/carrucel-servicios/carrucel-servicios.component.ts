@@ -13,6 +13,8 @@ export class CarrucelServiciosComponent implements AfterViewInit {
   itemWidth: number = 300;
   gap: number = 20;
 
+  
+
   ngAfterViewInit() {
     this.calculateWidths();
     window.addEventListener('resize', () => this.calculateWidths());
