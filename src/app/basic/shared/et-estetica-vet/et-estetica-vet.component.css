@@ -31,3 +31,33 @@
   height: 300px;
   margin-top: auto;
 }
+
+@media (max-width: 480px) {
+  .etiqueta {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .etiqueta h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .etiqueta p {
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+
+  .etiqueta img {
+    width: 300px;
+    height: 250px;
+    align-self: self-end;
+    object-fit: cover;
+  }
+
+
+}

@@ -44,3 +44,51 @@ button:hover {
   margin-top: 130px;
   margin-right: 200px;
 }
+
+
+@media (max-width: 480px) {
+  .contenedor {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .texto {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .texto h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .texto p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(to right,
+      #FAD0C4 0%,
+      #F7B7A3 25%,
+      #F58F8A 50%,
+      #F2A7A5 75%,
+      #FFEBE0 100%);
+    border: none;
+  }
+
+}
