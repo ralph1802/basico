@@ -9,3 +9,12 @@
   padding: 120px;
   padding-top: 10px;
 }
+
+@media (max-width: 480px) {
+  .contenedor {
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+  }
+}

@@ -26,3 +26,9 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+@media (max-width: 480px) {
+  .comentario{
+    margin-bottom: 10px;
+  }
+}

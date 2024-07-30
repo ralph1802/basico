@@ -63,7 +63,7 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
   }
 
@@ -75,6 +75,7 @@ nav {
 
   .logo h2 {
     font-size: 60px;
+    font-weight: 700;
     margin: 0;
   }
 
@@ -87,7 +88,6 @@ nav {
     background: #fff;
     border-radius: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* padding: 10px 0; */
     text-align: center;
     z-index: 1000;
   }
@@ -107,9 +107,10 @@ nav {
     border: none;
     font-size: 50px;
     cursor: pointer;
-    margin-right: 30px;
+    /* margin-right: 0px; */
     /* margin-left: 40px; */
     z-index: 1000;
+    padding: 0;
   }
 
   .emergencias {

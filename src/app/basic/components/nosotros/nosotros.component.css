@@ -30,6 +30,37 @@
   border-radius: 30px;
 }
 
+@media (max-width: 480px) {
+  .componente {
+    height: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .componente .text h2 {
+    font-family: Poppins;
+    font-size: 30px;
+  }
+
+  .componente .text p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .componente .text p .bold {
+    font-weight: 600;
+  }
+
+  .componente .image img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+}
+
 
 
 
