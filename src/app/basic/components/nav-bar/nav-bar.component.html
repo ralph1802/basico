@@ -2,7 +2,10 @@
   <div class="logo">
     <h2>TuMarca</h2>
   </div>
-  <div class="nav">
+  <button class="menu-toggle" (click)="toggleMenu()" aria-label="Toggle navigation">
+    ☰
+  </button>
+  <div class="nav" [class.show]="menuOpen">
     <a href="#inicio">Inicio</a>
     <a href="#servicios">Servicios</a>
     <a href="#nosotros">Nosotros</a>

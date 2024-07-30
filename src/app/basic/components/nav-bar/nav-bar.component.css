@@ -33,6 +33,10 @@ nav {
   text-decoration: underline;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .emergencias button {
   padding: 10px 20px;
   background: transparent;
@@ -53,3 +57,68 @@ nav {
   background: #990000;
   border-color: #990000;
 }
+
+
+@media (max-width: 480px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: center;
+    order: 1;
+  }
+
+  .logo h2 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  .nav a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    margin-right: 300px;
+    z-index: 1000;
+  }
+
+  .emergencias {
+    display: none;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+}
+
