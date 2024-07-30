@@ -1,0 +1,35 @@
+.comentario {
+  width: 370px;
+  background: rgba(245, 245, 245, 0.6);
+  border-radius: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.comentario h3 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.comentario p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.comentario img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 480px) {
+  .comentario{
+    margin-bottom: 10px;
+  }
+}
